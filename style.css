@@ -1,19 +1,8 @@
-.background {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    background: url('./img/dots.gif');
-    z-index: -1;
-    filter: invert(100%);
-    opacity: 0.1;
-}
-
 body {
     background: #795548;
     color: wheat;
     font-size: 15pt;
+    background: url('./img/dots_brown.gif');
 }
 
 h1, h2 {
@@ -31,6 +20,7 @@ h1 {
 
 hr {
     border-color: chocolate;
+    color: chocolate;
     border-width: 4px;
 }
 
@@ -56,19 +46,14 @@ hr {
 
 .bread-list li {
     line-height: 64px;
+    min-height: 64px;
 }
 
-.bread-list li:before {
-    content: 'a';
-    height: 64px;
-    display: inline-block;
-    width: 64px;
-    background-image: url(./img/ShortMarriedKiskadee-size_restricted.gif);
-    background-size: contain;
-    color: transparent;
+.bread-list li .toast {
+    vertical-align: middle;
 }
 
-.bread-list li img {
+.bread-list li .ugly-gifs {
     height: 100px;
 }
 
