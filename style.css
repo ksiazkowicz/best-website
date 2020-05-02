@@ -1,0 +1,86 @@
+.background {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: url('./img/dots.gif');
+    z-index: -1;
+    filter: invert(100%);
+    opacity: 0.1;
+}
+
+body {
+    background: #795548;
+    color: wheat;
+    font-size: 15pt;
+}
+
+h1, h2 {
+    font-family: 'Comic Sans MS', sans-serif;
+}
+
+h1 {
+    color: #ffc107;
+    font-size: 48pt;
+}
+
+.header {
+    text-align: center;
+}
+
+hr {
+    border-color: chocolate;
+    border-width: 4px;
+}
+
+.slicing-gif {
+    float: right;
+}
+
+.disclaimer {
+    color: white;
+    font-family: 'Comic Sans MS', sans-serif;
+    text-align: center;
+}
+
+.disclaimer img {
+    height: 48px;
+}
+
+.bread-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.bread-list li {
+    line-height: 64px;
+}
+
+.bread-list li:before {
+    content: 'a';
+    height: 64px;
+    display: inline-block;
+    width: 64px;
+    background-image: url(./img/ShortMarriedKiskadee-size_restricted.gif);
+    background-size: contain;
+    color: transparent;
+}
+
+.bread-list li img {
+    height: 100px;
+}
+
+a {
+    color: yellowgreen;
+}
+
+.blockchains {
+    font-family: "Papyrus", fantasy;
+}
+
+h1 img, h2 img {
+    vertical-align: middle;
+    height: 64px;
+}
