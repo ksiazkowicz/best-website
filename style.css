@@ -1,71 +1,88 @@
-body {
-    background: #795548;
-    color: wheat;
-    font-size: 15pt;
-    background: url('./img/dots_brown.gif');
+@font-face {
+  font-family: 'Comic Sans XD';
+  src: url('https://db.onlinewebfonts.com/t/7cc6719bd5f0310be3150ba33418e72e.eot');
+  src: url('https://db.onlinewebfonts.com/t/7cc6719bd5f0310be3150ba33418e72e.eot?#iefix')
+      format('embedded-opentype'),
+    url('https://db.onlinewebfonts.com/t/7cc6719bd5f0310be3150ba33418e72e.woff2')
+      format('woff2'),
+    url('https://db.onlinewebfonts.com/t/7cc6719bd5f0310be3150ba33418e72e.woff')
+      format('woff'),
+    url('https://db.onlinewebfonts.com/t/7cc6719bd5f0310be3150ba33418e72e.ttf')
+      format('truetype'),
+    url('https://db.onlinewebfonts.com/t/7cc6719bd5f0310be3150ba33418e72e.svg#Comic Sans MS')
+      format('svg');
 }
 
-h1, h2 {
-    font-family: 'Comic Sans MS', sans-serif;
+body {
+  background: #795548;
+  color: wheat;
+  font-size: 15pt;
+  background: url('./img/dots_brown.gif');
+}
+
+h1,
+h2,
+.disclaimer {
+  font-family: 'Comic Sans XD', 'Comic Sans MS', sans-serif;
 }
 
 h1 {
-    color: #ffc107;
-    font-size: 48pt;
+  color: #ffc107;
+  font-size: 48pt;
 }
 
 .header {
-    text-align: center;
+  text-align: center;
 }
 
 hr {
-    border-color: chocolate;
-    color: chocolate;
-    border-width: 4px;
+  border-color: chocolate;
+  color: chocolate;
+  border-width: 4px;
 }
 
 .slicing-gif {
-    float: right;
+  float: right;
 }
 
 .disclaimer {
-    color: white;
-    font-family: 'Comic Sans MS', sans-serif;
-    text-align: center;
+  color: white;
+  text-align: center;
 }
 
 .disclaimer img {
-    height: 48px;
+  height: 48px;
 }
 
 .bread-list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .bread-list li {
-    line-height: 64px;
-    min-height: 64px;
+  line-height: 64px;
+  min-height: 64px;
 }
 
 .bread-list li .toast {
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
 .bread-list li .ugly-gifs {
-    height: 100px;
+  height: 100px;
 }
 
 a {
-    color: yellowgreen;
+  color: yellowgreen;
 }
 
 .blockchains {
-    font-family: "Papyrus", fantasy;
+  font-family: 'Papyrus', fantasy;
 }
 
-h1 img, h2 img {
-    vertical-align: middle;
-    height: 64px;
+h1 img,
+h2 img {
+  vertical-align: middle;
+  height: 64px;
 }
